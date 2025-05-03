@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Adven Trip</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet" >
+	<link href="css/font-awesome.min.css" rel="stylesheet" >
+	<link href="css/global.css" rel="stylesheet">
+	<link href="css/about.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+	<script src="js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+<section id="top" class="pt-2 pb-2 bg_green px-4">
+<div class="container-fluid">
+<div class="row top_1">
+ <div class="col-md-6">
+   <div class="top_1l">
+    <ul class="mb-0 font_14">
+	 <li class="d-inline-block text-white"> <i class="fa fa-map-marker me-1 col_yell"></i> 250 Main Street, 2nd Floor, USA</li>
+	 <li class="d-inline-block ms-3">  <a class="text-white" href="#"><i class="fa fa-envelope me-1 col_yell"></i> info@gmail.com</a></li>
+	</ul>
+   </div>
+ </div>
+ <div class="col-md-6">
+   <div class="top_1r text-end">
+      <ul class="mb-0 font_14">
+	  <li class="d-inline-block">  <a class="text-white tag" href="#"> <i class="fa fa-facebook"></i></a></li>
+	  <li class="d-inline-block ms-3">  <a class="text-white tag" href="#"> <i class="fa fa-twitter"></i></a></li>
+	  <li class="d-inline-block ms-3">  <a class="text-white tag" href="#"> <i class="fa fa-instagram"></i></a></li>
+	  <li class="d-inline-block ms-3">  <a class="text-white tag" href="#"> <i class="fa fa-pinterest"></i></a></li>
+	</ul>
+   </div>
+ </div>
+</div>
+
+</div>
+</section>
+
+<section id="header">
+<nav class="navbar navbar-expand-md navbar-light px-4" id="navbar_sticky">
+  <div class="container-fluid">
+    <a class="navbar-brand p-0  fw-bold col_yell" href="index.html"><i class="fa fa-globe me-1"></i> <span class="col_green">My</span> <span class="fs-5">Trip</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	   <ul class="navbar-nav mb-0 ms-auto">
+	    
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+        </li>
+		 
+		<li class="nav-item">
+          <a class="nav-link active" href="about.html">About </a>
+        </li>
+		
+		<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Tours
+          </a>
+          <ul class="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="tour.html"> Tours</a></li>
+            <li><a class="dropdown-item border-0" href="detail.html"> Tour Detail</a></li>
+          </ul>
+        </li>
+		
+		<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Destination
+          </a>
+          <ul class="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="destination.html"> Destination</a></li>
+            <li><a class="dropdown-item border-0" href="destination_detail.html"> Destination Detail</a></li>
+          </ul>
+        </li>
+		
+		<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Blog
+          </a>
+          <ul class="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="blog.html"> Blog</a></li>
+            <li><a class="dropdown-item border-0" href="blog_detail.html"> Blog Detail</a></li>
+          </ul>
+        </li>
+		
+		<li class="nav-item">
+          <a class="nav-link" href="team.html">Team</a>
+        </li>
+		
+		<li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+		
+		<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle   nav_hide" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa fa-search"></i>
+          </a>
+          <ul class="dropdown-menu drop_1 drop_2" aria-labelledby="navbarDropdown">
+            <li>
+			  <div class="input-group border_1">
+				<input type="text" class="form-control border-0 rounded-0" placeholder="Search Here">
+				<span class="input-group-btn">
+					<button class="btn btn-primary  border-0 rounded-0 p-3 px-4 bg-transparent col_green" type="button">
+						<i class="fa fa-search"></i> </button>
+				</span>
+		</div>
+			</li>
+          </ul>
+        </li>
+		
+		<li class="nav-item">
+           <a class="nav-link  rounded-circle" href="#"><i class="fa fa-user"></i></a>
+        </li>
+		
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+</section>
+
+<section id="center" class="center_o">
+   <div class="center_om back_mo1">
+     <div class="container-xl">
+  <div class="row center_o1 text-center">
+     <div class="col-md-12">
+	    <h1 class="text-white d-md-none">About Us</h1>
+	    <h6 class="col_green mb-0 fw-bold"><a class="text-light" href="#">Home</a> <span class="mx-2 text-white-50">/</span> About Us</h6>
+	 </div>
+  </div>
+ </div>
+   </div>   
+ </section>
+
+<section id="about_pg" class="p_3 px-4">
+   <div class="container-fluid">
+	 <div class="about_pg1 row">
+	  <div class="col-md-5">
+	   <div class="about_pg1l">
+	     <h6 class="d-inline-block bg_light col_green p-3 px-4 rounded-3 fw-bold">Availability</h6>
+	  <h1 class="mt-3">Explore GoWilds <span class="col_yell">Real Adventure</span> & Travels</h1>
+	  <p class="mt-3">Patagonia (Chile & Argentina) – Wild, rugged landscapes.
+       The Himalayas (Nepal/India) – Epic treks like Everest Base Camp.</p>
+	  <div class="contact_2li row mt-4">
+		  <div class="col-md-2 col-2">
+		   <div class="contact_2lil">
+		    <span class="font_60 col_green lh-1"><i class="fa fa-life-bouy"></i></span>
+		   </div>
+		  </div>
+		  <div class="col-md-10 col-10">
+		   <div class="contact_2lir">
+		    <h5>Protect your life</h5>
+			<p class="mb-0">We're here for look even you from start to finish.</p>
+		   </div>
+		  </div>
+		 </div>
+		 <div class="contact_2li row mt-4">
+		  <div class="col-md-2 col-2">
+		   <div class="contact_2lil">
+		    <span class="font_60 col_green lh-1"><i class="fa fa-phone"></i></span>
+		   </div>
+		  </div>
+		  <div class="col-md-10 col-10">
+		   <div class="contact_2lir">
+		    <h6 class="text-muted">Call experts</h6>
+			<h5 class="mb-0">+123 4567 890</h5>
+		   </div>
+		  </div>
+		 </div>
+		 <h6 class="mb-0 mt-4"><a class="button_1" href="#">Discover More</a></h6>
+	   </div>
+	  </div>
+	  <div class="col-md-7">
+	   <div class="about_pg1r">
+	    <div class="about_pg1ri row">
+		 <div class="col-md-6 col-sm-6">
+		  <div class="about_pg1ril p-4 rounded-3 shadow_box">
+		   <h5 class="mb-3"><span class="d-inline-block bg_light text-center rounded-circle fs-1 col_green me-1"><i class="fa fa-sun-o"></i></span> <a href="#">Tent Camping</a></h5>
+		   <p class="mb-0">Tent camping means staying outdoors in a portable shelter (a tent), typically in natural settings like forests, mountains, beaches, or designated campgrounds.</p>
+		  </div>
+		 </div>
+		 <div class="col-md-6 col-sm-6">
+		  <div class="about_pg1ril p-4 rounded-3 shadow_box">
+		 
+		   <h5 class="mb-3">  <span class="d-inline-block bg_light text-center rounded-circle fs-1 col_green me-1"><i class="fa fa-bicycle"></i></span> <a href="#">Mountain Biking</a></h5>
+		   <p class="mb-0">Mountain biking is an outdoor sport that involves riding specially designed bicycles on off-road trails, often through forests, hills, mountains, and rugged terrain.</p>
+		  </div>
+		 </div>
+		</div>
+		<div class="about_pg1ri row mt-4">
+		 <div class="col-md-6 col-sm-6">
+		  <div class="about_pg1ril p-4 rounded-3 shadow_box">
+		   <h5 class="mb-3"> <span class="d-inline-block bg_light text-center rounded-circle fs-1 col_green me-1"><i class="fa fa-neuter"></i></span> <a href="#">Fishing & Boat</a></h5>
+		   <p class="mb-0">A fishing boat adventure is a day (or multi-day) trip on a boat with the goal of catching fish while exploring lakes, rivers, or oceans. It could be anything from peaceful inland fishing to deep-sea offshore sportfishing.</p>
+		  </div>
+		 </div>
+		 <div class="col-md-6 col-sm-6">
+		  <div class="about_pg1ril p-4 rounded-3 shadow_box">
+		   <h5 class="mb-3">		   <span class="d-inline-block bg_light text-center rounded-circle fs-1 col_green me-1"><i class="fa fa-won"></i></span> <a href="#">Adventure Climbing</a></h5>
+		   <p class="mb-0">Adventure climbing (also called trad climbing or alpine climbing depending on style) involves scaling natural rock formations, often in remote or less-developed areas. Unlike gym climbing or sport climbing, adventure climbers usually:</p>
+		  </div>
+		 </div>
+		</div>
+	   </div>
+	  </div>
+	 </div>
+  </div>   
+</section>
+
+<section id="avail">
+<div class="back_m pt-5 pb-5 px-4">
+  <div class="container-fluid">
+  <div class="avail_1 row">
+   <div class="col-md-6">
+    <div class="avail_1l">
+	  <span class="d-block"><a class="text-white rounded-circle text-center d-inline-block bg_green" href="#"><i class="fa fa-play"></i></a></span>
+	  <h6 class="d-inline-block bg_light col_yell p-3 px-4 rounded-3 fw-bold mt-4">Are you ready to travel?</h6>
+	  <h1 class="text-white mt-3">Ready to travel with real <span class="col_yell">adventure</span> & enjoy natural</h1>
+	  <h6 class="mb-0 mt-4"><a class="button" href="#">Check Availability</a></h6>
+	</div>
+   </div>
+   <div class="col-md-6">
+    <div class="avail_1r">
+	  <div class="avail_1ri row">
+	   <div class="col-md-6 col-sm-6">
+	    <div class="avail_1ril rounded-3 text-center feat_2i p-5 px-4">
+		  <span class="font_60 col_green lh-1"><i class="fa fa-globe"></i></span>
+		  <h5 class="text-white mt-4 mb-0">Wildlife Tours</h5>
+		</div>
+	   </div>
+	   <div class="col-md-6 col-sm-6">
+	    <div class="avail_1ril rounded-3 text-center feat_2i p-5 px-4">
+		  <span class="font_60 col_green lh-1"><i class="fa fa-diamond"></i></span>
+		  <h5 class="text-white mt-4 mb-0">Paragliding Tours</h5>
+		</div>
+	   </div>
+	  </div>
+	  <div class="avail_1ri row mt-4">
+	   <div class="col-md-6 col-sm-6">
+	    <div class="avail_1ril rounded-3 text-center feat_2i p-5 px-4">
+		  <span class="font_60 col_green lh-1"><i class="fa fa-adjust"></i></span>
+		  <h5 class="text-white mt-4 mb-0">Adventure Tours</h5>
+		</div>
+	   </div>
+	   <div class="col-md-6 col-sm-6">
+	    <div class="avail_1ril rounded-3 text-center feat_2i p-5 px-4">
+		  <span class="font_60 col_green lh-1"><i class="fa fa-sellsy"></i></span>
+		  <h5 class="text-white mt-4 mb-0">Hang Gliding Tours</h5>
+		</div>
+	   </div>
+	  </div>
+	</div>
+   </div>
+  </div>
+</div>
+</div>
+</section>
+
+<section id="about_h" class="p_3 px-4">
+<div class="container-fluid">
+ <div class="about_h1 row">
+  <div class="col-md-6">
+    <div class="about_h1l position-relative">
+	 <div class="grid clearfix">
+		  <figure class="effect-jazz mb-0">
+			<a href="#"><img src="img/80.jpeg" class="w-100" alt="img25"></a>
+		  </figure>
+	  </div>
+	</div>
+  </div>
+  <div class="col-md-6">
+    <div class="about_h1r px-4">
+	   <h6 class="d-inline-block bg_light col_green p-3 px-4 rounded-3 fw-bold">About Company</h6>
+	<h1 class="mt-3 mb-0">Great <span class="col_yell">opportunity</span>for adventure & travels</h1>
+	<div class="about_h1ri row mt-4">
+	 <div class="col-md-2">
+	  <div class="about_h1ril">
+	   <span class="d-inline-block bg_light col_green rounded-circle fs-1 text-center"><i class="fa fa-lock"></i></span>
+	  </div>
+	 </div>
+	 <div class="col-md-10">
+	  <div class="about_h1rir">
+	   <h5>Safety first always</h5>
+	   <p class="mb-0">Your safety is our top priority—every step of the journey.</p>
+	  </div>
+	 </div>
+	</div>
+	<div class="about_h1ri row mt-4">
+	 <div class="col-md-2">
+	  <div class="about_h1ril">
+	   <span class="d-inline-block bg_light col_green rounded-circle fs-1 text-center"><i class="fa fa-rupee"></i></span>
+	  </div>
+	 </div>
+	 <div class="col-md-10">
+	  <div class="about_h1rir">
+	   <h5>Low price & friendly</h5>
+	   <p class="mb-0">Our team is passionate, friendly, and always ready to help—from the moment you book to the final day of your journey.</p>
+	  </div>
+	 </div>
+	</div>
+	<div class="about_h1ri row mt-4">
+	 <div class="col-md-2">
+	  <div class="about_h1ril">
+	   <span class="d-inline-block bg_light col_green rounded-circle fs-1 text-center"><i class="fa fa-plane"></i></span>
+	  </div>
+	 </div>
+	 <div class="col-md-10">
+	  <div class="about_h1rir">
+	   <h5>Trusted travel guide</h5>
+	   <p class="mb-0">Our guides are not just experts in routes and destinations—they’re storytellers, safety leaders, and friendly faces who make every step of your trip smoother and more enriching.</p>
+	  </div>
+	 </div>
+	</div>
+	</div>
+  </div>
+ </div>
+ 
+</div>
+</section>
+
+<section id="team_h" class="p_3 px-4 bg-light">
+ <div class="container-fluid">
+  <div class="acti_1 row text-center mb-4">
+  <div class="col-md-12">
+    <h6 class="d-inline-block bg_light col_green p-3 px-4 rounded-3 fw-bold">Team members</h6>
+	<h1 class="mt-3 mb-0">We’ve <span class="col_yell">Expert Team</span> <br>  Members Meet With Team</h1>
+  </div>
+ </div>
+  <div class="team_h1i row">
+	   <div class="col-md-4">
+	     <div class="team_h1im">
+	    <div class="team_h1im1 position-relative clearfix">
+		 <div class="team_h1im1i clearfix">
+		    <div class="grid clearfix">
+				  <figure class="effect-jazz mb-0">
+					<a href="#"><img src="img/81.jpeg" class="w-100" alt="abc"></a>
+				  </figure>
+			  </div>
+		 </div>
+		 <div class="team_h1im1i1 position-absolute w-100 clearfix bottom-0 p-3">
+		   <ul class="social-network social-circle mb-0">
+					<li><a href="#" class="icoRss" title="Rss"><i class="fa fa-pinterest"></i></a></li>
+					<li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+				</ul>
+		 </div>
+		</div>
+		<div class="team_h1im2 p-4 shadow_box text-center bg-white  clearfix">
+		 <h4><a href="#">japan</a></h4>
+		 <h5 class="col_green fw-normal mb-0">Consultant</h5>
+		</div>
+	   </div>
+	   </div>
+	   <div class="col-md-4">
+	     <div class="team_h1im">
+	    <div class="team_h1im1 position-relative clearfix">
+		 <div class="team_h1im1i clearfix">
+		    <div class="grid clearfix">
+				  <figure class="effect-jazz mb-0">
+					<a href="#"><img src="img/82.jpeg" class="w-100" alt="abc"></a>
+				  </figure>
+			  </div>
+		 </div>
+		 <div class="team_h1im1i1 position-absolute w-100 clearfix bottom-0 p-3">
+		   <ul class="social-network social-circle mb-0">
+					<li><a href="#" class="icoRss" title="Rss"><i class="fa fa-pinterest"></i></a></li>
+					<li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+				</ul>
+		 </div>
+		</div>
+		<div class="team_h1im2 p-4 shadow_box text-center bg-white  clearfix">
+		 <h4><a href="#">goa</a></h4>
+		 <h5 class="col_green fw-normal mb-0">Consultant</h5>
+		</div>
+	   </div>
+	   </div>
+	   <div class="col-md-4">
+	     <div class="team_h1im">
+	    <div class="team_h1im1 position-relative clearfix">
+		 <div class="team_h1im1i clearfix">
+		    <div class="grid clearfix">
+				  <figure class="effect-jazz mb-0">
+					<a href="#"><img src="img/83.jpeg" class="w-100" alt="abc"></a>
+				  </figure>
+			  </div>
+		 </div>
+		 <div class="team_h1im1i1 position-absolute w-100 clearfix bottom-0 p-3">
+		   <ul class="social-network social-circle mb-0">
+					<li><a href="#" class="icoRss" title="Rss"><i class="fa fa-pinterest"></i></a></li>
+					<li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="#" class="icoTwitter" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+					<li><a href="#" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+				</ul>
+		 </div>
+		</div>
+		<div class="team_h1im2 p-4 shadow_box text-center bg-white clearfix">
+		 <h4><a href="#">spain</a></h4>
+		 <h5 class="col_green fw-normal mb-0">Consultant</h5>
+		</div>
+	   </div>
+	   </div>
+	  </div>
+	  
+ </div>
+</section>
+
+<section id="testim" class="p_3 px-4">
+<div class="container-fluid">
+  <div class="testim_1 row">
+  <div class="col-md-5">
+    <div class="testim_1l">
+	   <h6 class="d-inline-block bg_light col_green p-3 px-4 rounded-3 fw-bold mt-4">Our Testimonials</h6>
+	  <h1 class="mt-3">What they’re talking about <span class="col_yell">our policy</span></h1>
+	  <p class="mt-3">Company Policy: For example, policies regarding employee conduct, benefits, or operations. Privacy Policy: How a company handles user data, privacy, and security.</p>
+	  <h6 class="mb-0 mt-4"><a class="button_1" href="#">All Testimonials</a></h6>
+	</div>
+  </div>
+  <div class="col-md-7">
+    <div class="testim_1r rounded-3 p-5 px-4 bg_light">
+	 <span class="col_green fs-1 d-block mb-3"><i class="fa fa-quote-right"></i></span>
+	 <span class="col_yell">
+	  <i class="fa fa-star"></i>
+	  <i class="fa fa-star"></i>
+	  <i class="fa fa-star"></i>
+	  <i class="fa fa-star"></i>
+	  <i class="fa fa-star"></i>
+	 </span>
+	 <p class="mt-3 fs-5">
+		Destination: Where are you going? (City, country, or region) Purpose of Trip: Is it for vacation, business, adventure, etc.? Dates: When are you traveling?     </p>
+	 <div class="testim_1i1i clearfix mt-4">
+		   <span><img src="img/10.jpg" alt="abc" class="rounded-circle me-3 float-start"></span>
+		   <h6 class="mb-0 fw-bold  lh-base font_14"> travellers<br> <span class="col_green font_12  fw-normal">Travellers</span></h6>
+		   </div>
+	</div>
+  </div>
+ </div>
+</div>
+</section>
+
+<div class="main_o position-relative">
+ <div class="main_o1 position-absolute w-100">
+   <section id="footer_t" class="p_3 px-4">
+<div class="container-fluid">
+  <div class="footer_t1 row">
+    <div class="col-md-3">
+	 <div class="footer_t1i position-relative">
+	   <div class="footer_t1i1">
+	     <a href="#"><img src="img/76.jpeg" alt="abc" class="w-100 rounded-3"></a>
+	 </div>
+	   <div class="footer_t1i2 position-absolute back_mo w-100 h-100 top-0 text-center">
+	    <span class="d-inline-block bg_yell text-white rounded-circle fs-5"><i class="fa fa-plus"></i></span>
+	    <h5 class="mt-3"><a class="text-white" href="#">Discovery Islands</a></h5>
+		<h6 class="mb-0 text-white font_14">ADVENTURE</h6>
+	 </div>
+	 </div>
+	</div>
+	<div class="col-md-3">
+	 <div class="footer_t1i position-relative">
+	   <div class="footer_t1i1">
+	     <a href="#"><img src="img/77.jpeg" alt="abc" class="w-100 rounded-3"></a>
+	 </div>
+	   <div class="footer_t1i2 position-absolute back_mo w-100 h-100 top-0 text-center">
+	    <span class="d-inline-block bg_yell text-white rounded-circle fs-5"><i class="fa fa-plus"></i></span>
+	    <h5 class="mt-3"><a class="text-white" href="#">Discovery Islands</a></h5>
+		<h6 class="mb-0 text-white font_14">ADVENTURE</h6>
+	 </div>
+	 </div>
+	</div>
+	<div class="col-md-3">
+	 <div class="footer_t1i position-relative">
+	   <div class="footer_t1i1">
+	     <a href="#"><img src="img/78.jpeg" alt="abc" class="w-100 rounded-3"></a>
+	 </div>
+	   <div class="footer_t1i2 position-absolute back_mo w-100 h-100 top-0 text-center">
+	    <span class="d-inline-block bg_yell text-white rounded-circle fs-5"><i class="fa fa-plus"></i></span>
+	    <h5 class="mt-3"><a class="text-white" href="#">Discovery Islands</a></h5>
+		<h6 class="mb-0 text-white font_14">ADVENTURE</h6>
+	 </div>
+	 </div>
+	</div>
+	<div class="col-md-3">
+	 <div class="footer_t1i position-relative">
+	   <div class="footer_t1i1">
+	     <a href="#"><img src="img/79.jpeg" alt="abc" class="w-100 rounded-3"></a>
+	 </div>
+	   <div class="footer_t1i2 position-absolute back_mo w-100 h-100 top-0 text-center">
+	    <span class="d-inline-block bg_yell text-white rounded-circle fs-5"><i class="fa fa-plus"></i></span>
+	    <h5 class="mt-3"><a class="text-white" href="#">Discovery Islands</a></h5>
+		<h6 class="mb-0 text-white font_14">ADVENTURE</h6>
+	 </div>
+	 </div>
+	</div>
+ </div>
+</div>
+</section>
+</div>
+<div class="main_o2 bg-dark">
+  <section id="footer_m" class="p_3 px-4">
+<div class="container-fluid">
+  <div class="footer_m1 row">
+     <div class="col-md-6">
+	  <div class="footer_m1l">
+	   <div class="footer_m1li row">
+	    <div class="col-md-2">
+		 <div class="footer_m1lil">
+		  <span class="font_60 col_yell lh-1"><i class="fa fa-headphones"></i></span>
+		 </div>
+		</div>
+		<div class="col-md-10">
+		 <div class="footer_m1lir">
+		  <h4 class="text-white mb-0">
+Need any support for <br> tour & travels ?</h4>
+		 </div>
+		</div>
+	   </div>
+	  </div>
+	 </div>
+	 <div class="col-md-6">
+	  <div class="footer_m1l">
+	   <div class="footer_m1li row">
+	    <div class="col-md-2">
+		 <div class="footer_m1lil">
+		  <span class="font_60 col_yell lh-1"><i class="fa fa-globe"></i></span>
+		 </div>
+		</div>
+		<div class="col-md-10">
+		 <div class="footer_m1lir">
+		  <h4 class="text-white mb-0">
+Ready to Get Started With <br> Vacations!</h4>
+		 </div>
+		</div>
+	   </div>
+	  </div>
+	 </div>
+ </div><hr class="line_1 mt-4 mb-4">
+  <div class="footer_m2 row">
+     <div class="col-md-3">
+	  <div class="footer_m2i">
+	     <h3 class="mb-3"><a class="col_yell" href="index.html"><i class="fa fa-globe me-1"></i> <span class="col_green">My</span> <span class="fs-5">Trip</span></a></h3>
+		 <p class="text-white-50">To take trivial example which us
+ever undertakes laborious physica exercise except obsome.</p>
+<ul class="social_tag mb-0">
+	 <li class="d-inline-block"><a href="#"><i class="fa fa-facebook"></i></a></li>
+	 <li class="d-inline-block"><a href="#"><i class="fa fa-twitter"></i></a></li>
+	 <li class="d-inline-block"><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+	 <li class="d-inline-block"><a href="#"><i class="fa fa-instagram"></i></a></li>
+	 <li class="d-inline-block"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+	</ul>
+	  </div>
+	 </div>
+	 <div class="col-md-2">
+	  <div class="footer_m2i">
+	     <h5 class="mb-4 text-white mt-3">Pages</h5>
+	<div class="row footer_3ism">
+		 <h6 class="col-md-12 col-6"><a class="text-white-50" href="#"><i class="fa fa-chevron-right font_14 me-1 col_yell"></i> About Us</a></h6>
+	 <h6 class="col-md-12 col-6 mt-2"><a class="text-white-50" href="#"><i class="fa fa-chevron-right font_14 me-1 col_yell"></i> Login</a></h6>
+	 <h6 class="col-md-12 col-6 mt-2"><a class="text-white-50" href="#"><i class="fa fa-chevron-right font_14 me-1 col_yell"></i> Register</a></h6>
+	 <h6 class="col-md-12 col-6 mt-2"><a class="text-white-50" href="#"><i class="fa fa-chevron-right font_14 me-1 col_yell"></i> Privacy</a></h6>
+	 <h6 class="col-md-12 col-6 mt-2"><a class="text-white-50" href="#"><i class="fa fa-chevron-right font_14 me-1 col_yell"></i> Support</a></h6>
+	 <h6 class="col-md-12 col-6 mt-2 mb-0"><a class="text-white-50" href="#"><i class="fa fa-chevron-right font_14 me-1 col_yell"></i> Faq</a></h6>
+	    </div>
+	  </div>
+	 </div>
+	 <div class="col-md-3">
+	  <div class="footer_m2i">
+	     <h5 class="mb-4 text-white mt-3">Newsletter</h5>
+	    <p class="text-white-50">Subscribe our newsletter to get our latest update & news.</p>
+		<div class="input-group">
+				<input type="text" class="form-control border-0" placeholder="Search Here">
+				<span class="input-group-btn">
+					<button class="btn btn-primary bg_green rounded-0 border-0 p-3 px-4 border-0 fs-5" type="button">
+						<i class="fa fa-location-arrow"></i> </button>
+				</span>
+		</div>
+		<p class=" mt-3 text-white-50 mb-0"><i class="fa fa-check-circle me-1 col_green"></i> I agree to all terms and policies</p>
+	  </div>
+	 </div>
+	 <div class="col-md-4">
+	  <div class="footer_m2i">
+	     <h5 class="mb-4 text-white mt-3">Contact</h5>
+	    <div class="footer_m2i1 row">
+		 <div class="col-md-2 col-2">
+		  <div class="footer_m2i1l">
+           <span class="d-inline-block col_green rounded-circle text-center"><i class="fa fa-phone"></i></span>
+		  </div>
+		 </div>
+		 <div class="col-md-10 col-10">
+		  <div class="footer_m2i1r">
+		    <h6 class="text-white-50">Drop a Line</h6>
+			<h5 class="mb-0 text-white fs-6">+123 4567 890</h5>
+		  </div>
+		 </div>
+		</div>
+		<div class="footer_m2i1 row mt-3">
+		 <div class="col-md-2 col-2">
+		  <div class="footer_m2i1l">
+           <span class="d-inline-block col_green rounded-circle text-center"><i class="fa fa-envelope"></i></span>
+		  </div>
+		 </div>
+		 <div class="col-md-10 col-10">
+		  <div class="footer_m2i1r">
+		    <h6 class="text-white-50">Email Address</h6>
+			<h5 class="mb-0 text-white fs-6">info@gmail.com</h5>
+		  </div>
+		 </div>
+		</div>
+		<div class="footer_m2i1 row mt-3">
+		 <div class="col-md-2 col-2">
+		  <div class="footer_m2i1l">
+           <span class="d-inline-block col_green rounded-circle text-center"><i class="fa fa-map-marker"></i></span>
+		  </div>
+		 </div>
+		 <div class="col-md-10 col-10">
+		  <div class="footer_m2i1r">
+		    <h6 class="text-white-50">Visit office</h6>
+			<h5 class="mb-0 text-white fs-6">543 Quis Street, NZ, USA</h5>
+		  </div>
+		 </div>
+		</div>
+	  </div>
+	 </div>
+ </div>
+ 
+</div>
+</section>
+</div>
+</div>
+
+<section id="footer_b" class="pt-3 pb-3 px-4 bg-black">
+<div class="container-fluid">
+ <div class="row footer_b_1 text-center">
+  <div class="col-md-12">
+   <p class="mb-0 text-white-50">© 2013 Your Website Name. All Rights Reserved | Design by <a class="col_green fw-bold" href="http://www.templateonweb.com">TemplateOnWeb</a></p>
+  </div>
+ </div>
+</div>
+</section>
+ 
+<script>
+window.onscroll = function() {myFunction()};
+var navbar_sticky = document.getElementById("navbar_sticky");
+var sticky = navbar_sticky.offsetTop;
+var navbar_height = document.querySelector('.navbar').offsetHeight;
+function myFunction() {
+  if (window.pageYOffset >= sticky + navbar_height) {
+    navbar_sticky.classList.add("sticky")
+	document.body.style.paddingTop = navbar_height + 'px';
+  } else {
+    navbar_sticky.classList.remove("sticky");
+	document.body.style.paddingTop = '0'
+  }
+}
+</script>
+
+</body>
+
+</html>

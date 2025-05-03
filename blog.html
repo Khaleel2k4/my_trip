@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Adven Trip</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet" >
+	<link href="css/font-awesome.min.css" rel="stylesheet" >
+	<link href="css/global.css" rel="stylesheet">
+	<link href="css/blog.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wght@6..12,500&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+	<script src="js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+<section id="top" class="pt-2 pb-2 bg_green px-4">
+<div class="container-fluid">
+<div class="row top_1">
+ <div class="col-md-6">
+   <div class="top_1l">
+    <ul class="mb-0 font_14">
+	 <li class="d-inline-block text-white"> <i class="fa fa-map-marker me-1 col_yell"></i> 250 Main Street, 2nd Floor, USA</li>
+	 <li class="d-inline-block ms-3">  <a class="text-white" href="#"><i class="fa fa-envelope me-1 col_yell"></i> info@gmail.com</a></li>
+	</ul>
+   </div>
+ </div>
+ <div class="col-md-6">
+   <div class="top_1r text-end">
+      <ul class="mb-0 font_14">
+	  <li class="d-inline-block">  <a class="text-white tag" href="#"> <i class="fa fa-facebook"></i></a></li>
+	  <li class="d-inline-block ms-3">  <a class="text-white tag" href="#"> <i class="fa fa-twitter"></i></a></li>
+	  <li class="d-inline-block ms-3">  <a class="text-white tag" href="#"> <i class="fa fa-instagram"></i></a></li>
+	  <li class="d-inline-block ms-3">  <a class="text-white tag" href="#"> <i class="fa fa-pinterest"></i></a></li>
+	</ul>
+   </div>
+ </div>
+</div>
+
+</div>
+</section>
+
+<section id="header">
+<nav class="navbar navbar-expand-md navbar-light px-4" id="navbar_sticky">
+  <div class="container-fluid">
+    <a class="navbar-brand p-0  fw-bold col_yell" href="index.html"><i class="fa fa-globe me-1"></i> <span class="col_green">My</span> <span class="fs-5">Trip</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+	   <ul class="navbar-nav mb-0 ms-auto">
+	    
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="index.html">Home</a>
+        </li>
+		 
+		<li class="nav-item">
+          <a class="nav-link" href="about.html">About </a>
+        </li>
+		
+		<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Tours
+          </a>
+          <ul class="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="tour.html"> Tours</a></li>
+            <li><a class="dropdown-item border-0" href="detail.html"> Tour Detail</a></li>
+          </ul>
+        </li>
+		
+		<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Destination
+          </a>
+          <ul class="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="destination.html"> Destination</a></li>
+            <li><a class="dropdown-item border-0" href="destination_detail.html"> Destination Detail</a></li>
+          </ul>
+        </li>
+		
+		<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle active" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Blog
+          </a>
+          <ul class="dropdown-menu drop_1" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="blog.html"> Blog</a></li>
+            <li><a class="dropdown-item border-0" href="blog_detail.html"> Blog Detail</a></li>
+          </ul>
+        </li>
+		
+		<li class="nav-item">
+          <a class="nav-link" href="team.html">Team</a>
+        </li>
+		
+		<li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+		
+		<li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle   nav_hide" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fa fa-search"></i>
+          </a>
+          <ul class="dropdown-menu drop_1 drop_2" aria-labelledby="navbarDropdown">
+            <li>
+			  <div class="input-group border_1">
+				<input type="text" class="form-control border-0 rounded-0" placeholder="Search Here">
+				<span class="input-group-btn">
+					<button class="btn btn-primary  border-0 rounded-0 p-3 px-4 bg-transparent col_green" type="button">
+						<i class="fa fa-search"></i> </button>
+				</span>
+		</div>
+			</li>
+          </ul>
+        </li>
+		
+		<li class="nav-item">
+           <a class="nav-link  rounded-circle" href="#"><i class="fa fa-user"></i></a>
+        </li>
+		
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+</section>
+
+<section id="center" class="center_o">
+   <div class="center_om back_mo1">
+     <div class="container-xl">
+  <div class="row center_o1 text-center">
+     <div class="col-md-12">
+	    <h1 class="text-white d-md-none">Blogs</h1>
+	    <h6 class="col_green mb-0 fw-bold"><a class="text-light" href="#">Home</a> <span class="mx-2 text-white-50">/</span> Blogs</h6>
+	 </div>
+  </div>
+ </div>
+   </div>   
+ </section>
+
+
+<section id="blog" class="p_3 px-4">
+   <div class="container-fluid">
+	 <div class="row blog_1">
+		 <div class="col-md-8">
+	      <div class="blog_1l">
+		    <div class="blog_2 row">
+			  <div class="col-md-6">
+				<div class="blog_2i rounded-3 border_1 p-4 shadow_box">
+				 <div class="blog_2i1 position-relative">
+				  <div class="blog_2i1i">
+					<a href="blog_detail.html"><img src="img/94.jpeg" alt="abc" class="w-100 rounded-3"></a>
+				  </div>
+				  <div class="blog_2i1i1 position-absolute top-0 text-end w-100">
+					<span class="d-inline-block text-white p-2 px-3 bg_green text-center">17 <br> Dec</span>
+				  </div>
+				  <div class="blog_2i1i2 position-absolute bottom-0">
+				   <h6 class="d-inline-block bg_yell text-white font_14 p-2 px-3 rounded-3 mb-0">Life Style</h6>
+				  </div>
+				 </div>
+				 <div class="blog_2i2 mt-3">
+				   <ul class="font_14">
+					  <li class="d-inline-block"><i class="fa fa-user me-1 col_green"></i> <a href="blog_detail.html">japan</a> <span class="text-muted mx-2">|</span></li>
+					  <li class="d-inline-block"><i class="fa fa-comment-o me-1 col_green"></i> <a href="blog_detail.html">3 </a> <span class="text-muted mx-2">|</span></li>
+					  <li class="d-inline-block"><i class="fa fa-clock-o me-1 col_green"></i> <a href="blog_detail.html">28 July, 2021 </a> </li>
+					 </ul>
+					 <h5><a href="blog_detail.html">Things to see and do when visiting Japan</a></h5>
+					 <p class="mt-3">Senso-ji Temple (Asakusa) – Tokyo’s oldest Buddhist temple
+
+						Meiji Shrine – Serene forest shrine near Harajuku
+						
+						Imperial Palace – Historic residence of Japan’s emperor</p>
+					 <h6 class="mb-0 text-center"><a class="button_1 p-3 px-5" href="blog_detail.html">Read More</a></h6>
+				 </div>
+				</div>
+			  </div>
+			  <div class="col-md-6">
+				<div class="blog_2i rounded-3 border_1 p-4 shadow_box">
+				 <div class="blog_2i1 position-relative">
+				  <div class="blog_2i1i">
+					<a href="blog_detail.html"><img src="img/95.jpeg" alt="abc" class="w-100 rounded-3"></a>
+				  </div>
+				  <div class="blog_2i1i1 position-absolute top-0 text-end w-100">
+					<span class="d-inline-block text-white p-2 px-3 bg_green text-center">18 <br> Dec</span>
+				  </div>
+				  <div class="blog_2i1i2 position-absolute bottom-0">
+				   <h6 class="d-inline-block bg_yell text-white font_14 p-2 px-3 rounded-3 mb-0">Camping</h6>
+				  </div>
+				 </div>
+				 <div class="blog_2i2 mt-3">
+				   <ul class="font_14">
+					  <li class="d-inline-block"><i class="fa fa-user me-1 col_green"></i> <a href="blog_detail.html">friends</a> <span class="text-muted mx-2">|</span></li>
+					  <li class="d-inline-block"><i class="fa fa-comment-o me-1 col_green"></i> <a href="blog_detail.html">4 </a> <span class="text-muted mx-2">|</span></li>
+					  <li class="d-inline-block"><i class="fa fa-clock-o me-1 col_green"></i> <a href="blog_detail.html">29 July, 2021 </a> </li>
+					 </ul>
+					 <h5><a href="blog_detail.html">Journeys are best measured with friends</a></h5>
+					 <p class="mt-3">Share costs (accommodation, transport, food)
+
+						Make unforgettable memories
+						
+						Explore with people who know you
+						
+						Enjoy group activities like games, hikes, beach days, and nightlife</p>
+					 <h6 class="mb-0 text-center"><a class="button_1 p-3 px-5" href="blog_detail.html">Read More</a></h6>
+				 </div>
+				</div>
+			  </div>
+           </div>
+		    <div class="blog_2 row mt-4">
+			  <div class="col-md-6">
+				<div class="blog_2i rounded-3 border_1 p-4 shadow_box">
+				 <div class="blog_2i1 position-relative">
+				  <div class="blog_2i1i">
+					<a href="blog_detail.html"><img src="img/84.jpeg" alt="abc" class="w-100 rounded-3"></a>
+				  </div>
+				  <div class="blog_2i1i1 position-absolute top-0 text-end w-100">
+					<span class="d-inline-block text-white p-2 px-3 bg_green text-center">17 <br> Dec</span>
+				  </div>
+				  <div class="blog_2i1i2 position-absolute bottom-0">
+				   <h6 class="d-inline-block bg_yell text-white font_14 p-2 px-3 rounded-3 mb-0">Life Style</h6>
+				  </div>
+				 </div>
+				 <div class="blog_2i2 mt-3">
+				   <ul class="font_14">
+					  <li class="d-inline-block"><i class="fa fa-user me-1 col_green"></i> <a href="blog_detail.html">canada</a> <span class="text-muted mx-2">|</span></li>
+					  <li class="d-inline-block"><i class="fa fa-comment-o me-1 col_green"></i> <a href="blog_detail.html">3 </a> <span class="text-muted mx-2">|</span></li>
+					  <li class="d-inline-block"><i class="fa fa-clock-o me-1 col_green"></i> <a href="blog_detail.html">28 July, 2021 </a> </li>
+					 </ul>
+					 <h5><a href="blog_detail.html">Things to see and do when visiting canada</a></h5>
+					 <p class="mt-3">Skiing/Snowboarding: Whistler, Banff, Tremblant
+
+						Hiking: Canadian Rockies, Bruce Trail, Fundy Footpath
+						
+						Kayaking/Canoeing: Thousand Islands, Algonquin Park
+						
+						Wildlife Watching: Bears in BC, whales in Atlantic Canada, moose in Newfoundland</p>
+					 <h6 class="mb-0 text-center"><a class="button_1 p-3 px-5" href="blog_detail.html">Read More</a></h6>
+				 </div>
+				</div>
+			  </div>
+			  <div class="col-md-6">
+				<div class="blog_2i rounded-3 border_1 p-4 shadow_box">
+				 <div class="blog_2i1 position-relative">
+				  <div class="blog_2i1i">
+					<a href="blog_detail.html"><img src="img/85.jpeg" alt="abc" class="w-100 rounded-3"></a>
+				  </div>
+				  <div class="blog_2i1i1 position-absolute top-0 text-end w-100">
+					<span class="d-inline-block text-white p-2 px-3 bg_green text-center">18 <br> Dec</span>
+				  </div>
+				  <div class="blog_2i1i2 position-absolute bottom-0">
+				   <h6 class="d-inline-block bg_yell text-white font_14 p-2 px-3 rounded-3 mb-0">Camping</h6>
+				  </div>
+				 </div>
+				 <div class="blog_2i2 mt-3">
+				   <ul class="font_14">
+					  <li class="d-inline-block"><i class="fa fa-user me-1 col_green"></i> <a href="blog_detail.html">australia</a> <span class="text-muted mx-2">|</span></li>
+					  <li class="d-inline-block"><i class="fa fa-comment-o me-1 col_green"></i> <a href="blog_detail.html">4 </a> <span class="text-muted mx-2">|</span></li>
+					  <li class="d-inline-block"><i class="fa fa-clock-o me-1 col_green"></i> <a href="blog_detail.html">29 July, 2021 </a> </li>
+					 </ul>
+					 <h5><a href="blog_detail.html">Things to see and do when visiting Australia</a></h5>
+					 <p class="mt-3">Bondi Beach (NSW): Surfing, coastal walks
+
+						Whitehaven Beach (Whitsundays): Powder-white sand, turquoise water
+						
+						Gold Coast (Queensland): Surf beaches, nightlife, theme parks
+						
+						Byron Bay (NSW): Laid-back town with surfing, wellness retreats
+						
+						.</p>
+					 <h6 class="mb-0 text-center"><a class="button_1 p-3 px-5" href="blog_detail.html">Read More</a></h6>
+				 </div>
+				</div>
+			  </div>
+           </div>
+		   <div class="blog_2 row mt-4">
+			  <div class="col-md-6">
+				<div class="blog_2i rounded-3 border_1 p-4 shadow_box">
+				 <div class="blog_2i1 position-relative">
+				  <div class="blog_2i1i">
+					<a href="blog_detail.html"><img src="img/86.jpeg" alt="abc" class="w-100 rounded-3"></a>
+				  </div>
+				  <div class="blog_2i1i1 position-absolute top-0 text-end w-100">
+					<span class="d-inline-block text-white p-2 px-3 bg_green text-center">17 <br> Dec</span>
+				  </div>
+				  <div class="blog_2i1i2 position-absolute bottom-0">
+				   <h6 class="d-inline-block bg_yell text-white font_14 p-2 px-3 rounded-3 mb-0">Life Style</h6>
+				  </div>
+				 </div>
+				 <div class="blog_2i2 mt-3">
+				   <ul class="font_14">
+					  <li class="d-inline-block"><i class="fa fa-user me-1 col_green"></i> <a href="blog_detail.html">spain</a> <span class="text-muted mx-2">|</span></li>
+					  <li class="d-inline-block"><i class="fa fa-comment-o me-1 col_green"></i> <a href="blog_detail.html">3 </a> <span class="text-muted mx-2">|</span></li>
+					  <li class="d-inline-block"><i class="fa fa-clock-o me-1 col_green"></i> <a href="blog_detail.html">28 July, 2021 </a> </li>
+					 </ul>
+					 <h5><a href="blog_detail.html">Things to see and do when visiting spain</a></h5>
+					 <p class="mt-3">Costa Brava – Rugged coastline and charming seaside towns
+
+						Canary Islands – Volcanic islands with year-round sun (Tenerife, Lanzarote)
+						
+						Balearic Islands – Ibiza (party), Mallorca (beaches + hiking), Menorca (quiet)
+						
+						Sierra Nevada Mountains – Snow sports and hiking near Granada
+						
+						</p>
+					 <h6 class="mb-0 text-center"><a class="button_1 p-3 px-5" href="blog_detail.html">Read More</a></h6>
+				 </div>
+				</div>
+			  </div>
+			  <div class="col-md-6">
+				<div class="blog_2i rounded-3 border_1 p-4 shadow_box">
+				 <div class="blog_2i1 position-relative">
+				  <div class="blog_2i1i">
+					<a href="blog_detail.html"><img src="img/87.jpeg" alt="abc" class="w-100 rounded-3"></a>
+				  </div>
+				  <div class="blog_2i1i1 position-absolute top-0 text-end w-100">
+					<span class="d-inline-block text-white p-2 px-3 bg_green text-center">18 <br> Dec</span>
+				  </div>
+				  <div class="blog_2i1i2 position-absolute bottom-0">
+				   <h6 class="d-inline-block bg_yell text-white font_14 p-2 px-3 rounded-3 mb-0">Camping</h6>
+				  </div>
+				 </div>
+				 <div class="blog_2i2 mt-3">
+				   <ul class="font_14">
+					  <li class="d-inline-block"><i class="fa fa-user me-1 col_green"></i> <a href="blog_detail.html">goa</a> <span class="text-muted mx-2">|</span></li>
+					  <li class="d-inline-block"><i class="fa fa-comment-o me-1 col_green"></i> <a href="blog_detail.html">4 </a> <span class="text-muted mx-2">|</span></li>
+					  <li class="d-inline-block"><i class="fa fa-clock-o me-1 col_green"></i> <a href="blog_detail.html">29 July, 2021 </a> </li>
+					 </ul>
+					 <h5><a href="blog_detail.html">Things to see and do when visiting goa</a></h5>
+					 <p class="mt-3">Old Goa Churches – Basilica of Bom Jesus (UNESCO site), Se Cathedral
+
+						Forts – Aguada Fort, Chapora Fort (famous from Dil Chahta Hai), Reis Magos Fort
+						
+						Latin Quarter (Fontainhas) in Panaji – Colorful Portuguese-style homes and art galleries
+						
+						Temples – Shri Mangueshi, Shri Shantadurga
+						
+						</p>
+					 <h6 class="mb-0 text-center"><a class="button_1 p-3 px-5" href="blog_detail.html">Read More</a></h6>
+				 </div>
+				</div>
+			  </div>
+           </div>
+		   <div class="pages  text-center mt-4 row">
+		      <div class="col-md-12">
+			    <ul class="mb-0">
+			<li><a href="blog_detail.html"><i class="fa fa-chevron-left"></i></a></li>
+			<li><a class="act" href="blog_detail.html">1</a></li>
+			<li><a href="blog_detail.html">2</a></li>
+			<li><a href="blog_detail.html">3</a></li>
+			<li><a href="blog_detail.html">4</a></li>
+			<li><a href="blog_detail.html">5</a></li>
+			<li><a href="blog_detail.html">6</a></li>
+			<li><a href="blog_detail.html"><i class="fa fa-chevron-right"></i></a></li>
+		   </ul>
+			  </div>
+	       </div>
+		  </div>
+		 </div>
+		 <div class="col-md-4">
+	      <div class="blog_1r">
+		    <div class="blog_1r1 rounded-3 shadow_box p-4">
+			  <h5 class="fs-6">ALL CATEGORIES</h5>
+			  <hr class="line mb-4">
+			  <h6 class="mb-0"><a class="d-block" href="blog_detail.html">Adventure <i class="fa fa-long-arrow-right pull-right col_green"></i></a></h6><hr>
+			  <h6 class="mb-0"><a class="d-block" href="blog_detail.html">City Tours <i class="fa fa-long-arrow-right pull-right col_green"></i></a></h6><hr>
+			  <h6 class="mb-0"><a class="d-block" href="blog_detail.html">Life Style <i class="fa fa-long-arrow-right pull-right col_green"></i></a></h6><hr>
+			  <h6 class="mb-0"><a class="d-block" href="blog_detail.html">Wild Camping <i class="fa fa-long-arrow-right pull-right col_green"></i></a></h6>
+			</div>
+			<div class="blog_1r1 rounded-3 shadow_box p-4 mt-4">
+			  <h5 class="fs-6">RECENT POSTS</h5>
+			  <hr class="line mb-4">
+			  <div class="blog_1r1i row">
+		 <div class="col-md-3 pe-0 col-3">
+		  <div class="blog_1r1il">
+		    <a href="blog_detail.html"><img src="img/84.jpeg" class="w-100 rounded-3" alt="abc"></a>
+		  </div>
+		 </div>
+		 <div class="col-md-9 col-9">
+		  <div class="blog_1r1ir">
+		   <h6 class="text-muted font_12"><i class="fa fa-comments col_green me-1"></i> 0 COMMENTS</h6>
+		   <h6 class="fw-bold mb-0"><a href="blog_detail.html">Things to see and do when visiting Japan</a></h6>
+		  </div>
+		 </div>
+		</div><hr>
+		     <div class="blog_1r1i row">
+		 <div class="col-md-3 pe-0 col-3">
+		  <div class="blog_1r1il">
+		    <a href="blog_detail.html"><img src="img/96.jpeg" class="w-100 rounded-3" alt="abc"></a>
+		  </div>
+		 </div>
+		 <div class="col-md-9 col-9">
+		  <div class="blog_1r1ir">
+		   <h6 class="text-muted font_12"><i class="fa fa-comments col_green me-1"></i> 2 COMMENTS</h6>
+		   <h6 class="fw-bold  mb-0"><a href="blog_detail.html">A place where start new life with adventure travel</a></h6>
+		  </div>
+		 </div>
+		</div><hr>
+		    <div class="blog_1r1i row">
+		 <div class="col-md-3 pe-0 col-3">
+		  <div class="blog_1r1il">
+		    <a href="blog_detail.html"><img src="img/97.jpeg" class="w-100 rounded-3" alt="abc"></a>
+		  </div>
+		 </div>
+		 <div class="col-md-9 col-9">
+		  <div class="blog_1r1ir">
+		   <h6 class="text-muted font_12"><i class="fa fa-comments col_green me-1"></i> 4 COMMENTS</h6>
+		   <h6 class="fw-bold  mb-0"><a href="blog_detail.html">Journeys are best measured with friends</a></h6>
+		  </div>
+		 </div>
+		</div>
+			</div>
+			<div class="blog_1r1 rounded-3 shadow_box p-4 mt-4">
+			  <h5 class="fs-6">TAGS</h5>
+			  <hr class="line mb-4">
+		      <ul class="mb-0 tags">
+				 <li class="d-inline-block"><a href="blog_detail.html">ADVENTURE</a></li>
+				 <li class="d-inline-block"><a href="blog_detail.html">CAMPING</a></li>
+				 <li class="d-inline-block"><a href="blog_detail.html">NATURAL</a></li>
+				 <li class="d-inline-block"><a href="blog_detail.html">POLICY</a></li>
+				 <li class="d-inline-block"><a href="blog_detail.html">SOLAR ENERGY</a></li>
+				 <li class="d-inline-block"><a href="blog_detail.html">TRAVELS</a></li>
+				 </ul>
+			</div>
+			<div class="blog_1r1 mt-4">
+			 <div class="list_h1i position-relative">
+    <div class="list_h1i1">
+	  <a href="blog_detail.html"><img src="img/87.jpeg" alt="abc" class="w-100 rounded-3"></a>
+	</div>
+	<div class="list_h1i2 position-absolute w-100 text-end p-3 top-0 back_mo h-100 rounded-3">
+	    <h6 class="d-inline-block bg_yell text-white font_12 p-2 px-3 rounded-3">5 TOURS</h6>
+	</div>
+	<div class="list_h1i3 position-absolute w-100 p-3 bottom-0">
+	 <h6 class="col_green">Travel to</h6>
+	 <h4 class="mb-0"><a class="text-white" href="blog_detail.html">Singapore</a></h4>
+	</div>
+   </div>
+			 
+			</div>
+			<div class="blog_1r1 mt-4">
+			 <div class="list_h1i position-relative">
+    <div class="list_h1i1">
+	  <a href="blog_detail.html"><img src="img/88.jpeg" alt="abc" class="w-100 rounded-3"></a>
+	</div>
+	<div class="list_h1i2 list_h1i2o position-absolute w-100 p-5 px-4 bottom-0 back_mo h-100 rounded-3">
+	    <h6 class="d-inline-block bg_yell text-white font_12 p-2 px-3 rounded-3">Up to 40%</h6>
+		<h4 class="text-white mt-3">USA</h4>
+		<h6 class="mb-0 mt-4"><a class="button" href="blog_detail.html">View Deals</a></h6>
+	</div>
+   </div>
+			</div>
+		  </div>
+		 </div>
+	 </div>
+ </div>   
+</section>
+
+
+<div class="main_o position-relative">
+ <div class="main_o1 position-absolute w-100">
+   <section id="footer_t" class="p_3 px-4">
+<div class="container-fluid">
+  <div class="footer_t1 row">
+    <div class="col-md-3">
+	 <div class="footer_t1i position-relative">
+	   <div class="footer_t1i1">
+	     <a href="#"><img src="img/76.jpeg" alt="abc" class="w-100 rounded-3"></a>
+	 </div>
+	   <div class="footer_t1i2 position-absolute back_mo w-100 h-100 top-0 text-center">
+	    <span class="d-inline-block bg_yell text-white rounded-circle fs-5"><i class="fa fa-plus"></i></span>
+	    <h5 class="mt-3"><a class="text-white" href="#">Discovery Islands</a></h5>
+		<h6 class="mb-0 text-white font_14">ADVENTURE</h6>
+	 </div>
+	 </div>
+	</div>
+	<div class="col-md-3">
+	 <div class="footer_t1i position-relative">
+	   <div class="footer_t1i1">
+	     <a href="#"><img src="img/78.jpeg" alt="abc" class="w-100 rounded-3"></a>
+	 </div>
+	   <div class="footer_t1i2 position-absolute back_mo w-100 h-100 top-0 text-center">
+	    <span class="d-inline-block bg_yell text-white rounded-circle fs-5"><i class="fa fa-plus"></i></span>
+	    <h5 class="mt-3"><a class="text-white" href="#">Discovery Islands</a></h5>
+		<h6 class="mb-0 text-white font_14">ADVENTURE</h6>
+	 </div>
+	 </div>
+	</div>
+	<div class="col-md-3">
+	 <div class="footer_t1i position-relative">
+	   <div class="footer_t1i1">
+	     <a href="#"><img src="img/77.jpeg" alt="abc" class="w-100 rounded-3"></a>
+	 </div>
+	   <div class="footer_t1i2 position-absolute back_mo w-100 h-100 top-0 text-center">
+	    <span class="d-inline-block bg_yell text-white rounded-circle fs-5"><i class="fa fa-plus"></i></span>
+	    <h5 class="mt-3"><a class="text-white" href="#">Discovery Islands</a></h5>
+		<h6 class="mb-0 text-white font_14">ADVENTURE</h6>
+	 </div>
+	 </div>
+	</div>
+	<div class="col-md-3">
+	 <div class="footer_t1i position-relative">
+	   <div class="footer_t1i1">
+	     <a href="#"><img src="img/78.jpeg" alt="abc" class="w-100 rounded-3"></a>
+	 </div>
+	   <div class="footer_t1i2 position-absolute back_mo w-100 h-100 top-0 text-center">
+	    <span class="d-inline-block bg_yell text-white rounded-circle fs-5"><i class="fa fa-plus"></i></span>
+	    <h5 class="mt-3"><a class="text-white" href="#">Discovery Islands</a></h5>
+		<h6 class="mb-0 text-white font_14">ADVENTURE</h6>
+	 </div>
+	 </div>
+	</div>
+ </div>
+</div>
+</section>
+</div>
+<div class="main_o2 bg-dark">
+  <section id="footer_m" class="p_3 px-4">
+<div class="container-fluid">
+  <div class="footer_m1 row">
+     <div class="col-md-6">
+	  <div class="footer_m1l">
+	   <div class="footer_m1li row">
+	    <div class="col-md-2">
+		 <div class="footer_m1lil">
+		  <span class="font_60 col_yell lh-1"><i class="fa fa-headphones"></i></span>
+		 </div>
+		</div>
+		<div class="col-md-10">
+		 <div class="footer_m1lir">
+		  <h4 class="text-white mb-0">
+Need any support for <br> tour & travels ?</h4>
+		 </div>
+		</div>
+	   </div>
+	  </div>
+	 </div>
+	 <div class="col-md-6">
+	  <div class="footer_m1l">
+	   <div class="footer_m1li row">
+	    <div class="col-md-2">
+		 <div class="footer_m1lil">
+		  <span class="font_60 col_yell lh-1"><i class="fa fa-globe"></i></span>
+		 </div>
+		</div>
+		<div class="col-md-10">
+		 <div class="footer_m1lir">
+		  <h4 class="text-white mb-0">
+Ready to Get Started With <br> Vacations!</h4>
+		 </div>
+		</div>
+	   </div>
+	  </div>
+	 </div>
+ </div><hr class="line_1 mt-4 mb-4">
+  <div class="footer_m2 row">
+     <div class="col-md-3">
+	  <div class="footer_m2i">
+	     <h3 class="mb-3"><a class="col_yell" href="index.html"><i class="fa fa-globe me-1"></i> <span class="col_green">My</span> <span class="fs-5">Trip</span></a></h3>
+		 <p class="text-white-50">To take trivial example which us
+ever undertakes laborious physica exercise except obsome.</p>
+<ul class="social_tag mb-0">
+	 <li class="d-inline-block"><a href="#"><i class="fa fa-facebook"></i></a></li>
+	 <li class="d-inline-block"><a href="#"><i class="fa fa-twitter"></i></a></li>
+	 <li class="d-inline-block"><a href="#"><i class="fa fa-youtube-play"></i></a></li>
+	 <li class="d-inline-block"><a href="#"><i class="fa fa-instagram"></i></a></li>
+	 <li class="d-inline-block"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+	</ul>
+	  </div>
+	 </div>
+	 <div class="col-md-2">
+	  <div class="footer_m2i">
+	     <h5 class="mb-4 text-white mt-3">Pages</h5>
+	<div class="row footer_3ism">
+		 <h6 class="col-md-12 col-6"><a class="text-white-50" href="#"><i class="fa fa-chevron-right font_14 me-1 col_yell"></i> About Us</a></h6>
+	 <h6 class="col-md-12 col-6 mt-2"><a class="text-white-50" href="#"><i class="fa fa-chevron-right font_14 me-1 col_yell"></i> Login</a></h6>
+	 <h6 class="col-md-12 col-6 mt-2"><a class="text-white-50" href="#"><i class="fa fa-chevron-right font_14 me-1 col_yell"></i> Register</a></h6>
+	 <h6 class="col-md-12 col-6 mt-2"><a class="text-white-50" href="#"><i class="fa fa-chevron-right font_14 me-1 col_yell"></i> Privacy</a></h6>
+	 <h6 class="col-md-12 col-6 mt-2"><a class="text-white-50" href="#"><i class="fa fa-chevron-right font_14 me-1 col_yell"></i> Support</a></h6>
+	 <h6 class="col-md-12 col-6 mt-2 mb-0"><a class="text-white-50" href="#"><i class="fa fa-chevron-right font_14 me-1 col_yell"></i> Faq</a></h6>
+	    </div>
+	  </div>
+	 </div>
+	 <div class="col-md-3">
+	  <div class="footer_m2i">
+	     <h5 class="mb-4 text-white mt-3">Newsletter</h5>
+	    <p class="text-white-50">Subscribe our newsletter to get our latest update & news.</p>
+		<div class="input-group">
+				<input type="text" class="form-control border-0" placeholder="Search Here">
+				<span class="input-group-btn">
+					<button class="btn btn-primary bg_green rounded-0 border-0 p-3 px-4 border-0 fs-5" type="button">
+						<i class="fa fa-location-arrow"></i> </button>
+				</span>
+		</div>
+		<p class=" mt-3 text-white-50 mb-0"><i class="fa fa-check-circle me-1 col_green"></i> I agree to all terms and policies</p>
+	  </div>
+	 </div>
+	 <div class="col-md-4">
+	  <div class="footer_m2i">
+	     <h5 class="mb-4 text-white mt-3">Contact</h5>
+	    <div class="footer_m2i1 row">
+		 <div class="col-md-2 col-2">
+		  <div class="footer_m2i1l">
+           <span class="d-inline-block col_green rounded-circle text-center"><i class="fa fa-phone"></i></span>
+		  </div>
+		 </div>
+		 <div class="col-md-10 col-10">
+		  <div class="footer_m2i1r">
+		    <h6 class="text-white-50">Drop a Line</h6>
+			<h5 class="mb-0 text-white fs-6">+123 4567 890</h5>
+		  </div>
+		 </div>
+		</div>
+		<div class="footer_m2i1 row mt-3">
+		 <div class="col-md-2 col-2">
+		  <div class="footer_m2i1l">
+           <span class="d-inline-block col_green rounded-circle text-center"><i class="fa fa-envelope"></i></span>
+		  </div>
+		 </div>
+		 <div class="col-md-10 col-10">
+		  <div class="footer_m2i1r">
+		    <h6 class="text-white-50">Email Address</h6>
+			<h5 class="mb-0 text-white fs-6">info@gmail.com</h5>
+		  </div>
+		 </div>
+		</div>
+		<div class="footer_m2i1 row mt-3">
+		 <div class="col-md-2 col-2">
+		  <div class="footer_m2i1l">
+           <span class="d-inline-block col_green rounded-circle text-center"><i class="fa fa-map-marker"></i></span>
+		  </div>
+		 </div>
+		 <div class="col-md-10 col-10">
+		  <div class="footer_m2i1r">
+		    <h6 class="text-white-50">Visit office</h6>
+			<h5 class="mb-0 text-white fs-6">543 Quis Street, NZ, USA</h5>
+		  </div>
+		 </div>
+		</div>
+	  </div>
+	 </div>
+ </div>
+ 
+</div>
+</section>
+</div>
+</div>
+
+<section id="footer_b" class="pt-3 pb-3 px-4 bg-black">
+<div class="container-fluid">
+ <div class="row footer_b_1 text-center">
+  <div class="col-md-12">
+   <p class="mb-0 text-white-50">© 2013 Your Website Name. All Rights Reserved | Design by <a class="col_green fw-bold" href="http://www.templateonweb.com">TemplateOnWeb</a></p>
+  </div>
+ </div>
+</div>
+</section>
+ 
+<script>
+window.onscroll = function() {myFunction()};
+var navbar_sticky = document.getElementById("navbar_sticky");
+var sticky = navbar_sticky.offsetTop;
+var navbar_height = document.querySelector('.navbar').offsetHeight;
+function myFunction() {
+  if (window.pageYOffset >= sticky + navbar_height) {
+    navbar_sticky.classList.add("sticky")
+	document.body.style.paddingTop = navbar_height + 'px';
+  } else {
+    navbar_sticky.classList.remove("sticky");
+	document.body.style.paddingTop = '0'
+  }
+}
+</script>
+
+</body>
+
+</html>

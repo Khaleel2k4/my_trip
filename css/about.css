@@ -1,0 +1,131 @@
+/*
+Template Name: Adven Trip
+File: Layout CSS
+Author: TemplatesOnWeb
+Author URI: https://www.templateonweb.com/
+Licence: <a href="https://www.templateonweb.com/license">Website Template Licence</a>
+*/
+
+/*********************about**************/
+.about_pg1ril span{
+width:80px;
+height:80px;
+line-height:80px;
+ }
+.about_pg1ril:hover span{
+background:#63ab45!important;
+color:#fff!important; 
+transition: 0.3s;
+ }
+ 
+.team_h1im1i1 ul li a{
+background: #63ab45;
+width:40px;
+height:40px;
+font-size:16px;
+ }
+.team_h1im1i1 ul li a i{
+line-height:40px;
+ }
+.team_h1im1i1 {
+display:none; 
+transition: 0.3s;
+text-align:center;
+ }
+.team_h1im1:hover .team_h1im1i1{
+display:block; 
+transition: 0.3s;
+ }
+/*********************about_end****************/
+
+
+@media screen and (max-width : 767px){
+.about_pg1l{
+text-align:center; 
+ }
+#about_pg{
+padding-left:0!important; 
+padding-right:0!important;
+ }
+.about_pg1l p{
+text-align:left; 
+ }
+.contact_2lir{
+text-align:left;  
+ }
+.contact_2lil .font_60{
+font-size:30px; 
+ }
+.about_pg1r{
+margin-top:20px; 
+ }
+.about_pg1ril {
+text-align:center;
+margin-top:8px;
+margin-bottom:8px; 
+ }
+.about_pg1ril p{
+text-align:left;
+ }
+
+ }
+
+@media (min-width:576px) and (max-width:767px) {
+
+ }
+@media (min-width:768px) and (max-width:991px) {
+#about_pg{
+padding-left:0!important; 
+padding-right:0!important;
+ }
+.contact_2lil .font_60{
+font-size:40px; 
+ }
+.about_h1l  img{
+min-height:400px; 
+ }
+.about_pg1ril h5 span {
+width: 30px;
+height: 30px;
+line-height: 30px;
+font-size:14px!important;
+}
+.about_pg1ril h5  {
+font-size:13px;
+}
+.about_pg1ril{
+padding:10px!important; 
+ }
+ }
+
+@media (min-width:992px) and (max-width:1200px) {
+.contact_2lil .font_60{
+font-size:40px; 
+ }
+.about_pg1ril h5 span {
+width: 40px;
+height: 40px;
+line-height: 40px;
+font-size:16px!important;
+}
+.about_pg1ril h5  {
+font-size:16px;
+}
+.about_pg1ril{
+padding:10px!important; 
+ }
+ }
+@media (min-width:1201px) and (max-width:1300px) {
+.about_pg1ril h5 span {
+width: 60px;
+height: 60px;
+line-height: 60px;
+font-size:26px!important;
+}
+.about_pg1ril h5 {
+font-size:16px!important;
+}
+ }
+
+
+
